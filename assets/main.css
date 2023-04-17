@@ -1,0 +1,22 @@
+html,
+body,
+#__nuxt,
+#__layout,
+.default {
+  margin: 0;
+  font-family: "Roboto", serif;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#__nuxt {
+  min-height: 100vh;
+}
