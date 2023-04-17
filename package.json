@@ -11,7 +11,8 @@
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
-    "deploy": "gh-pages -d dist -t true"
+    "predeploy": "nuxt generate",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.4",
@@ -28,6 +29,7 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
     "element-plus": "^2.3.3",
+    "gh-pages": "^5.0.0",
     "sass": "^1.62.0",
     "typescript": "^5.0.4"
   }
