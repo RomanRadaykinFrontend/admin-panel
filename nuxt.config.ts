@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   },
   css: ["@/assets/main.css"],
   app: {
-    baseURL: '/https://romanradaykinfrontend.github.io/admin-panel/',
+    // baseURL: '/https://romanradaykinfrontend.github.io/admin-panel/',
     head: {
       title: "Admin",
       htmlAttrs: {
